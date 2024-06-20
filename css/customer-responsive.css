@@ -1,0 +1,340 @@
+
+ /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+ @media (max-width: 1399.98px) { 
+  
+}
+
+/*  `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+
+    /* footer .footer-item-one .footer-item-last-menu p i span {
+        margin-left: 0px;
+    
+    } */
+    span.phon {
+        display: block;
+    }
+
+
+}
+
+
+
+/* `lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+
+    /* .transparent-topbar {
+        height: 50px;
+    } */
+    .transparent-topbar {
+        background: #000;
+        margin: 0;
+    }
+    li.top-social-icon {
+        border-right: 1px solid #555;
+    }
+    li.top-social-icon:nth-child(6){
+        border-right: none;
+    }
+    /* ==================  Career  ==================== */
+    li.top-link-item {
+        padding: 5px 0px;
+    }
+    ul.top-link-container {
+        margin: 0;
+    }
+    ul.top-social {
+        margin: 0;
+    }
+    ul.top-social {
+        justify-content: flex-end;
+    }
+    li.top-social-icon {
+        padding: 5px 0px;
+    }
+    li.nav-item {
+        padding: 0px 35px;
+    } 
+    
+    li.nav-item {
+        padding: 0px 35px;
+    }
+
+    .sub-menu-1 li.nav-item {
+        padding: 10px;
+    }
+    .sub-menu-1 li.nav-item a.nav-link {
+        display: flex;
+        padding: 0;
+    }
+    .sub-menu-1 ul.navbar-nav.sub-menu-link .nav-link img {
+        width: 50px;
+        height: 50px;
+    }
+    .sub-menu-1 ul.navbar-nav.sub-menu-link h5 {
+        font-size: 16px;
+        margin: 0;
+    }
+    .sub-menu-1 ul.navbar-nav.sub-menu-link p {
+        font-size: 16px;
+        margin: 0;
+    }
+    /* ========================================== */
+    .chart-part-right {
+        margin-top: 20px;
+    }
+
+    /* ============================================ */
+    .feature-box {
+        padding-bottom: 20px;
+    }
+    .bannar-title.career {
+        margin-top: 0;
+        padding: 0;
+    }
+    .apply-part-left p {
+        font-size: 17px;
+    }
+/* ===================Footer-Contact================== */
+    section.footer-contact {
+        padding: 100px 0px;
+        text-align: center;
+    }
+/* ================================ */
+span.phon {
+    display: block;
+}
+
+}
+
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+
+    a,u{
+        font-size: 17px;
+    }
+    p{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h5{
+        font-size: 16px;
+    }
+    h6{
+        font-size: 13px;
+    }
+    .transparent-topbar {
+        background: #000;
+        margin: 0;
+    }
+    ul.top-social {
+        border-top: 1px solid #555;
+    }
+    ul.top-link-container {
+        margin: 0;
+    }
+    li.top-link-item a {
+        margin-top: 10px;
+    font-size: 12px;
+    }
+    ul.top-social {
+        margin: 0;
+    }
+    li.top-social-icon {
+        border-right: 1px solid #555;
+    }
+    li.top-social-icon:nth-child(6){
+        border-right: none;
+    }
+    li.top-social-icon a i {
+        font-size: 12px;
+    }
+    ul.top-link-container {
+        justify-content: center;
+    }
+    ul.top-social {
+        justify-content: center;
+    }
+    .main-nav {
+        background: #fff;
+    }
+    nav.navbar.navbar-expand-lg.navbar-expand-lg {
+        background: none;
+        box-shadow:none;
+    }
+    li.top-link-item {
+        padding: 0px;
+    }
+    ul.top-social {
+        margin: 0;
+    }
+    li.top-social-icon{
+        padding: 0;
+    }
+    li.nav-item {
+        padding: 0px 35px;
+    } 
+    
+    li.nav-item {
+        padding: 0px 35px;
+    }
+
+    .sub-menu-1 li.nav-item {
+        padding: 10px;
+    }
+    .sub-menu-1 li.nav-item a.nav-link {
+        display: flex;
+        padding: 0;
+    }
+    .sub-menu-1 ul.navbar-nav.sub-menu-link .nav-link img {
+        width: 50px;
+        height: 50px;
+    }
+    .sub-menu-1 ul.navbar-nav.sub-menu-link h5 {
+        font-size: 16px;
+        margin: 0;
+    }
+    .sub-menu-1 ul.navbar-nav.sub-menu-link p {
+        font-size: 16px;
+        margin: 0;
+    }
+    /* =============================================================== */
+
+    .provide-icon i {
+        height: 50px;
+        width: 50px;
+        font-size: 22px;
+        line-height: 50px;
+    }
+
+/* ======================================= */
+    .apply-part-left p {
+        line-height: var(--p-line-light);
+        margin-bottom: 25px;
+    }
+    .play-button {
+        margin-top: 50px;
+    }
+/* ======================================= */
+
+footer .footer-item-one {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+footer {
+    padding-top: 90px;
+}
+footer .footer-item-one .footer-item-last-menu p i span {
+    margin-left: 0px;
+
+}
+span.phon {
+    display: block;
+}
+
+
+
+
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    a,u{
+        font-size: 14px;
+    }
+p{
+    font-size: 13px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 20px;
+}
+h4 {
+    font-size: 17px;
+}
+h5{
+    font-size: 14px;
+}
+h6{
+    font-size: 12px;
+}
+    .main-nav .navbar.navbar-expand-lg.navbar-expand-lg a img.logo {
+        height: 35px;
+    }
+    .pricing-text-title p {
+        padding: 0px 40px;
+    }
+    .feature-part {
+        margin-left: 50px;
+    }
+    .feature-box-text p {
+        padding: 0px 40px;
+    }
+    
+    li.nav-item {
+        padding: 0px 35px;
+    } 
+    
+    li.nav-item {
+        padding: 0px 35px;
+    }
+
+    .sub-menu-1 li.nav-item {
+        padding: 10px;
+    }
+    .sub-menu-1 li.nav-item a.nav-link {
+        display: flex;
+        padding: 0;
+    }
+    .sub-menu-1 ul.navbar-nav.sub-menu-link .nav-link img {
+        width: 50px;
+        height: 50px;
+    }
+    .sub-menu-1 ul.navbar-nav.sub-menu-link h5 {
+        font-size: 16px;
+        margin: 0;
+    }
+    .sub-menu-1 ul.navbar-nav.sub-menu-link p {
+        font-size: 16px;
+        margin: 0;
+    }
+/* =============================================== */
+
+.provide-icon i {
+    height: 50px;
+    width: 50px;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+
+/* =========================================================== */
+footer .footer-item-one {
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    .footer-contact-text h2 {
+        padding: 0px 20px;
+    }
+    span.phon {
+        display: block;
+    }
+    .footer-item-last-menu span.phon {
+        display: block;
+    }
+
+    .footer-item-last-menu span {
+    display: contents;
+}
+
+
+}
+
+
